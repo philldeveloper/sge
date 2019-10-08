@@ -67,7 +67,11 @@
       <br>
       Para maiores informações, entre em contato conosco
       </p>
-      <br>
+      <div class="row col-md-8">
+        <button><font size="4">Entrar</font> </button>&nbsp;&nbsp;&nbsp;
+        <button><font size="4">Cadastrar-se</font> </button>
+
+      </div>
  </div>
 </div> <!--row-->
     
