@@ -73,6 +73,124 @@
     
   </header>
 
+  <section>
+      <div>
+          <h1 class="text-center mb-5"> Modelos para o seu site! </h1>
+      </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/layoutcasamento.jpeg" height="400px" width="400px">
+            <br>
+            
+            <a  href=""> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5">Layouts de casamento</font></a>
+        </div>
+        <div class="col-md-4">
+            <img src="images/layoutcorporativo.jpg" height="400px" width="400px">
+             <a  href=""> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<font size="5">Layouts de eventos corporativos</font></a>
+        </div>    
+        <div class="col-md-4">
+            <img src="images/niver.jpeg" height="400px" width="400px">
+             <a  href=""> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5">Layouts de aniversários</font></a>
+
+        </div>    
+
+    </div>
+
+  </section>
+  <br>
+  <br>
+  <section>
+      <div>
+          <h1 style="font-family: raleway" class="text-center mb-5">
+            Planos  
+          </h1> 
+      </div>
+
+      <div class="row">
+          <div class="col-md-3">
+            <h3>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 
+            Plano 1</h3>
+            <br>
+            <p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h3>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 
+            Plano 2</h3>
+            <br>
+            <p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="col-md-3">
+             <h3>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 
+            Plano 3</h3>
+            <br>
+            <p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h3>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; 
+            Plano 4</h3>
+            <br>
+            <p>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+
+      </div>
+  </section>
+  <br>
+  <section>
+
+ <div style="font-family: fantasy" id="contatos">
+    <div class="row">
+     <div class="col-md-6">
+       <h3  class="text-dark" style="font-family: raleway">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; Formulário de contato </h3> 
+       <br>
+       <form>
+  <div class="form-row">
+    <div  style="font-family: raleway" class="form-group col-md-6">
+      <label>Nome</label>
+      <input name="nome" class="form-control" placeholder="Nome">
+    </div>
+    <div  style="font-family: raleway" class="form-group col-md-6">
+      <label>Telefone</label>
+      <input name="telefone" class="form-control" placeholder="Telefone">
+    </div>
+  </div>
+  <div   style="font-family: raleway" class="form-group">
+    <label>Email</label>
+    <input name="email" class="form-control" placeholder="email">
+  </div>
+  <div  style="font-family: raleway" class="form-group">
+    <label for="exampleFormControlTextarea1">Mensagem</label>
+    <textarea name="mensagem" placeholder="mensagem" class="form-control" id="exampleFormControlTextarea1" ></textarea>
+  </div>
+  <div class="form-row">
+  </div>
+  <div class="form-group">
+
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+  
+</form>
+      </div>
+      <div style="font-family: raleway" class="col-md-6 text-center">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4>Contatos:</h4>
+        <label>Tel.: (87) 98875-5062</label>
+        <br>
+        <i style="font-family: raleway"> events2019@gmail.com</i>
+      </div>
+    </div>
+    </div>
+  </section> 
 
   <!-- Scripts -->
   <script src="scripts/index.js"></script>
