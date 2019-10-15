@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('raiz');
-});
+Route::get('/', 'ControladorCasamentos@index');
+Route::get('/casamentos', 'ControladorCasamentos@create');
+Route::get('/aniversarios', 'ControladorAniversarios@create');
+
