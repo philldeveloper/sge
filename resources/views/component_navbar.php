@@ -11,9 +11,9 @@
       </li>
       <li @if($current=="aniversarios") class="nav-item active" @else class="nav-item" @endif>
         <a class="nav-link" href="/aniversarios">Site de Aniversários</a>
-      </li> 
+      </li>  
       <li @if($current=="planos") class="nav-item active" @else class="nav-item" @endif>
-        <a class="nav-link" href="/planos">Planos</a>
+        <a class="nav-link" href="#planos">Planos</a>
       </li>
      
     </ul>

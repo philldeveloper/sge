@@ -14,4 +14,7 @@
 Route::get('/', 'ControladorCasamentos@index');
 Route::get('/casamentos', 'ControladorCasamentos@create');
 Route::get('/aniversarios', 'ControladorAniversarios@create');
+Route::get('/cadastros', 'ControladorCadastros@create');
+
+
 
