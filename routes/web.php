@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::namespace('Site')->group(function() {
+    Route::get('/', 'HomepageController');
+    Route::get('/casamentos', 'WeddingController');
+    Route::get('/aniversarios', 'BirthdayController');
 });
+
+
+
