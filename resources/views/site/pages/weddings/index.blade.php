@@ -1,94 +1,66 @@
-@extends ('layouts.principal', ["current" => "casamentos"])
+@extends ('site.layouts.default', ['current' => 'casamentos'])
 
-@section('body')
-	
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
+@section('css')
+
+<style>
+
+
+</style>
     
+@endsection
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
-
-    <!-- Bootstrap core CSS -->
-<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-   
-  </head>
-  <body>
+@section('main')
     <header>
-  
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>Crie o seu site de casamento</strong>
-      </a>
-   
-    </div>
-  </div>
-</header>
-
-<main role="main">
-
-  <section class="jumbotron text-center">
-    <div class="container">
-      <h1 class="jumbotron-heading">Site de Casamento</h1>
-      <p class="lead text-muted">Com a criação do seu site de casamento os seus convidados podem acompanhar todas as novidades do seu evento, como: local do seu evento, data da cerimonia, da festa e todas as informações sobre o casamento. Com o grande diferencial de ter a lista de presente do seu casamento, inteiramente dentro do seu site. Transformando o seu presente em dinheiro, em que o seu convidado pode comprar o seu presente pelo site, através de cartão de crédito ou boleto, e o presente sendo revertido em dinheiro.</p>
-      <p>
-        <a href="/cadastros" class="btn btn-primary my-2">Cadastre-se</a>
-       <button class="btn btn-primary" onclick="novoProduto()">Mais informações</button> 
-      </p>
-    </div>
-
-    <div class="modal" tabindex="-1" role="dialog" id="dlgProdutos">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <form class="form-horizontal" id="formProduto">
-          <div class="modal-header">
-            <h5 class="modal-title">Site de Casamento</h5>
-          </div>
-        <div class="modal-body">
-
-          <input type="hidden" id="id" class="form-control">
-            <div class="form-group">
-              <p>Com o site de casamento elaborado por nós, você escolhe um layout que te agrade, informa as suas informações e anexa imagens que serão exibidas no site. Escolhe presentes ficticios, como locais de viagens, produtos e define um preço para cada presente, após isso o seu convidado tem acesso ao seu site, além de ter todas as informações do seu evento ainda pode comprar o presente de acordo com o que foi listado. E escollhe a forma de pagamento, você receberá em dinheiro o valor por cada presente que o seu convidado comprou.</p>
-            </div>  
-          </div>
-          <div class="modal-footer">
-          <button type="cancel" class="btn btn-primary" data-dissmiss="modal">Voltar</button>
-          </div>
-        </form>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+            <strong>Crie o seu site de casamento</strong>
+          </a>
+      
+        </div>
       </div>
-    </div>
-  </div>
-  </section>
+    </header>
+
+    <div>
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Site de Casamento</h1>
+          <p class="lead text-muted">Com a criação do seu site de casamento os seus convidados podem acompanhar todas as novidades do seu evento, como: local do seu evento, data da cerimonia, da festa e todas as informações sobre o casamento. Com o grande diferencial de ter a lista de presente do seu casamento, inteiramente dentro do seu site. Transformando o seu presente em dinheiro, em que o seu convidado pode comprar o seu presente pelo site, através de cartão de crédito ou boleto, e o presente sendo revertido em dinheiro.</p>
+          <p>
+            <a href="/cadastros" class="btn btn-primary my-2">Cadastre-se</a>
+          <button class="btn btn-primary" onclick="novoProduto()">Mais informações</button> 
+          </p>
+        </div>
+
+        <div class="modal" tabindex="-1" role="dialog" id="dlgProdutos">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <form class="form-horizontal" id="formProduto">
+              <div class="modal-header">
+                <h5 class="modal-title">Site de Casamento</h5>
+              </div>
+            <div class="modal-body">
+
+              <input type="hidden" id="id" class="form-control">
+                <div class="form-group">
+                  <p>Com o site de casamento elaborado por nós, você escolhe um layout que te agrade, informa as suas informações e anexa imagens que serão exibidas no site. Escolhe presentes ficticios, como locais de viagens, produtos e define um preço para cada presente, após isso o seu convidado tem acesso ao seu site, além de ter todas as informações do seu evento ainda pode comprar o presente de acordo com o que foi listado. E escollhe a forma de pagamento, você receberá em dinheiro o valor por cada presente que o seu convidado comprou.</p>
+                </div>  
+              </div>
+              <div class="modal-footer">
+              <button type="cancel" class="btn btn-primary" data-dissmiss="modal">Voltar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      </section>
 
 
   <div class="album py-5 bg-light">
     <div class="container">
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -199,7 +171,7 @@
     </div>
   </div>
 
-</main>
+</div>
 <br>
 <footer class="text-muted">
   <div class="container">
@@ -347,11 +319,6 @@
       </div>
     </div>
 </div>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
-</html>
 @endsection
 
 @section('javascript')

@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/', 'ControladorCasamentos@index');
-Route::get('/casamentos', 'ControladorCasamentos@create');
-Route::get('/aniversarios', 'ControladorAniversarios@create');
-Route::get('/cadastros', 'ControladorCadastros@create');
+Route::namespace('Site')->group(function() {
+    Route::get('/', 'HomepageController');
+    Route::get('/casamentos', 'WeddingController');
+    Route::get('/aniversarios', 'BirthdayController');
+});
 
 
 
