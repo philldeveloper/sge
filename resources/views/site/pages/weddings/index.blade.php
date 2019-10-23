@@ -1,14 +1,5 @@
 @extends ('site.layouts.default', ['current' => 'casamentos'])
 
-@section('css')
-
-<style>
-
-
-</style>
-    
-@endsection
-
 @section('main')
     <header>
       <div class="navbar navbar-dark bg-dark shadow-sm">
@@ -121,15 +112,11 @@
 
             <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Passo 1</text></svg>
             <div class="card-body">
-              <p class="card-text
-
-"> -> Cadastre-se no nosso site.</p>
+              <p class="card-text"> -> Cadastre-se no nosso site.</p>
               <p class="card-text"> -> Indique qual o tipo do seu evento.</p>
               <p class="card-text"> -> Escolha o plano que deseja adquirir.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                 
-                </div>
+                <div class="btn-group"></div>
                 <small class="text-muted">9 mins</small>
               </div>
             </div>
@@ -159,9 +146,7 @@
               <p class="card-text"> -> Escolha os valores dos presentes.</p>
               <p class="card-text"> -> Será gerado o seu site nos prazos.</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-              
-                </div>
+                <div class="btn-group"></div>
                 <small class="text-muted">9 mins</small>
               </div>
             </div>
@@ -172,6 +157,7 @@
   </div>
 
 </div>
+
 <br>
 <footer class="text-muted">
   <div class="container">
@@ -193,32 +179,31 @@
             <h5 class="modal-title">Layout Rústico</h5>
           </div>
         <div class="modal-body">
-
-       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="/images/casamentos.jpeg" height="400px" width="500px" alt="Primeiro Slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-400" src="/images/phil.png" height="400px" width="500px"  alt="Segundo Slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-400" src="/images/casamentos.jpeg" height="400px" width="500px" alt="Terceiro Slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Anterior</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Próximo</span>
-  </a>
-</div>
+         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/casamentos.jpeg" height="400px" width="500px" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-400" src="/images/phil.png" height="400px" width="500px"  alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-400" src="/images/casamentos.jpeg" height="400px" width="500px" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
           </div>
-          <div class="modal-footer">
+        </div>
+        <div class="modal-footer">
           <button type="cancel" class="btn btn-primary" data-dissmiss="modal">Voltar</button>
-          </div>
+        </div>
         </form>
       </div>
     </div>

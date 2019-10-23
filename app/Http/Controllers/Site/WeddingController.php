@@ -9,6 +9,6 @@ class WeddingController extends Controller
 {
     public function __invoke()
     {
-        return view('site.pages.weddings.index');
+        return view('site.pages.weddings.wedding');
     }
 }
