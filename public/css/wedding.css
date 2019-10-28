@@ -8,7 +8,42 @@ header.bg-wedding{
     background-attachment: scroll;
     background-size: cover;
 }
+header.bg-example{
 
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../images/foto-casal.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+  
+.msg{
+   width: 475px; height: 200px;
+}
+.borda {
+
+box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+
+}
+.example{
+  background-color: #0B2161;
+}
+.mesage{
+  background-color: #2ECCFA;
+}
+
+.info{
+  background-color: #0080FF;
+}
+
+.boxmodel2 {
+    background: #FFF;
+    color: #FFF;
+  
+    border: 5px solid #CCC;
+}
 
 .wedding-font{
 	font-family: 'valentine';
