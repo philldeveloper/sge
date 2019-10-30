@@ -17,5 +17,10 @@ Route::namespace('Site')->group(function() {
     Route::get('/aniversarios', 'BirthdayController');
 });
 
+Route::get('/page1', function () {
+    return view('site.pages.weddings.examples.one.page1');
+
+});
+
 
 
