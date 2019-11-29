@@ -21,6 +21,10 @@ Route::get('/page1', function () {
     return view('site.pages.weddings.examples.one.page1');
 
 });
+Route::get('/niver1', function () {
+    return view('site.pages.birthdays.examples.one.page1');
+
+});
 
 
 
